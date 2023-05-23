@@ -1,10 +1,13 @@
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="123456"
+    host="asiyademoserver123.mysql.database.azure.com",
+    user="myadmin@asiyademoserver123",
+    password="AsiyaSayed@123"
 )
 
 if db.is_connected():
     print("Database Connected")
+    
+    
+    
