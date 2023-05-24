@@ -2,10 +2,10 @@ import mysql.connector
 import os
 
 db = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="123456",
-    database="employee_data",
+    host="asiyademoserver123.mysql.database.azure.com",
+    user="myadmin@asiyademoserver123",
+    password="AsiyaSayed@123",
+    database="employee",
 )
 
 
