@@ -9,9 +9,9 @@
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="123456"
+    host="asiyademoserver123.mysql.database.azure.com",
+    user="myadmin@asiyademoserver123",
+    password="AsiyaSayed@123"
 )
 
 if db.is_connected():
@@ -26,9 +26,9 @@ if db.is_connected():
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="123456"
+    host="asiyademoserver123.mysql.database.azure.com",
+    user="myadmin@asiyademoserver123",
+    password="AsiyaSayed@123"
 )
 
 cursor = db.cursor()
@@ -45,10 +45,10 @@ print("Database Created Successful !!!")
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="123456",
-    database="employee_data",
+    host="asiyademoserver123.mysql.database.azure.com",
+    user="myadmin@asiyademoserver123",
+    password="AsiyaSayed@123",
+    database="employee",
 )
 
 cursor = db.cursor()
@@ -71,10 +71,10 @@ print("Table Created Successful !!!")
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="123456",
-    database="employee_data",
+    host="asiyademoserver123.mysql.database.azure.com",
+    user="myadmin@asiyademoserver123",
+    password="AsiyaSayed@123",
+    database="employee",
 )
 
 cursor = db.cursor()
@@ -95,10 +95,10 @@ print("{} data added".format(cursor.rowcount))
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="123456",
-    database="employee_data",
+    host="asiyademoserver123.mysql.database.azure.com",
+    user="myadmin@asiyademoserver123",
+    password="AsiyaSayed@123",
+    database="employee",
 )
 
 cursor = db.cursor()
@@ -126,10 +126,10 @@ print("{} data added".format(cursor.rowcount))
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="123456",
-    database="employee_data",
+    host="asiyademoserver123.mysql.database.azure.com",
+    user="myadmin@asiyademoserver123",
+    password="AsiyaSayed@123",
+    database="employee",
 )
 
 cursor = db.cursor()
@@ -149,10 +149,10 @@ print(result)
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="123456",
-    database="employee_data",
+    host="asiyademoserver123.mysql.database.azure.com",
+    user="myadmin@asiyademoserver123",
+    password="AsiyaSayed@123",
+    database="employee",
 )
 
 cursor = db.cursor()
@@ -173,10 +173,10 @@ for data in results:
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="123456",
-    database="employee_data",
+    host="asiyademoserver123.mysql.database.azure.com",
+    user="myadmin@asiyademoserver123",
+    password="AsiyaSayed@123",
+    database="employee",
 )
 
 cursor = db.cursor()
@@ -197,10 +197,10 @@ print("{} data deleted".format(cursor.rowcount))
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="123456",
-    database="employee_data",
+    host="asiyademoserver123.mysql.database.azure.com",
+    user="myadmin@asiyademoserver123",
+    password="AsiyaSayed@123",
+    database="employee",
 )
 
 cursor = db.cursor()
@@ -222,10 +222,10 @@ import mysql.connector
 import os
 
 db = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="123456",
-    database="employee_data",
+    host="asiyademoserver123.mysql.database.azure.com",
+    user="myadmin@asiyademoserver123",
+    password="AsiyaSayed@123",
+    database="employee",
 )
 
 
